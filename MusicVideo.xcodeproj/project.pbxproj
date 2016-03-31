@@ -97,12 +97,10 @@
 		0AB0B5A51CACAEAD004B2455 /* MusicVideo */ = {
 			isa = PBXGroup;
 			children = (
-				0AB0B5A61CACAEAD004B2455 /* AppDelegate.swift */,
-				0AB0B5A81CACAEAD004B2455 /* ViewController.swift */,
-				0AB0B5AA1CACAEAD004B2455 /* Main.storyboard */,
-				0AB0B5AD1CACAEAD004B2455 /* Assets.xcassets */,
-				0AB0B5AF1CACAEAD004B2455 /* LaunchScreen.storyboard */,
-				0AB0B5B21CACAEAD004B2455 /* Info.plist */,
+				0AB0B5D71CACAFF7004B2455 /* Supporting Files */,
+				0AB0B5D41CACAF53004B2455 /* Model */,
+				0AB0B5D51CACAF65004B2455 /* Controller */,
+				0AB0B5D61CACAFC5004B2455 /* View */,
 			);
 			path = MusicVideo;
 			sourceTree = "<group>";
@@ -123,6 +121,40 @@
 				0AB0B5C81CACAEAE004B2455 /* Info.plist */,
 			);
 			path = MusicVideoUITests;
+			sourceTree = "<group>";
+		};
+		0AB0B5D41CACAF53004B2455 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0AB0B5D51CACAF65004B2455 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0B5A81CACAEAD004B2455 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0AB0B5D61CACAFC5004B2455 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0B5AF1CACAEAD004B2455 /* LaunchScreen.storyboard */,
+				0AB0B5AA1CACAEAD004B2455 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0AB0B5D71CACAFF7004B2455 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0B5AD1CACAEAD004B2455 /* Assets.xcassets */,
+				0AB0B5A61CACAEAD004B2455 /* AppDelegate.swift */,
+				0AB0B5B21CACAEAD004B2455 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +225,7 @@
 				TargetAttributes = {
 					0AB0B5A21CACAEAD004B2455 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GQR6QK68PC;
 					};
 					0AB0B5B61CACAEAE004B2455 = {
 						CreatedOnToolsVersion = 7.3;
@@ -401,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MusicVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BubbleUpSoftware.MusicVideo;
@@ -412,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MusicVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BubbleUpSoftware.MusicVideo;
