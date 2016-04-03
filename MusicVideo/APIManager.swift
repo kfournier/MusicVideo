@@ -34,7 +34,7 @@ class APIManager {
                     /* .AllowFragements - top level object is not Aray or Dictionary.  Any string or value.  needs a do/try/cathc processes to convert NSDATA into a Json object and cst into a Dictionary */
                     
                     if let json = try NSJSONSerialization.JSONObjectWithData(data!, options: .AllowFragments)
-                        as? [String: AnyObject]  {
+                        as? JSONDictionary {
                         
                              print(json)
                         

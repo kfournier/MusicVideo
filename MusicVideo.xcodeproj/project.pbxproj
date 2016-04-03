@@ -15,6 +15,8 @@
 		0AB0B5BC1CACAEAE004B2455 /* MusicVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0B5BB1CACAEAE004B2455 /* MusicVideoTests.swift */; };
 		0AB0B5C71CACAEAE004B2455 /* MusicVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0B5C61CACAEAE004B2455 /* MusicVideoUITests.swift */; };
 		0AB0B5D91CACB50D004B2455 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0B5D81CACB50D004B2455 /* APIManager.swift */; };
+		0AF209F81CB0881D008A327C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF209F71CB0881D008A327C /* Constants.swift */; };
+		0AF209FA1CB08C0A008A327C /* MuiscVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF209F91CB08C0A008A327C /* MuiscVideo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0AB0B5C61CACAEAE004B2455 /* MusicVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVideoUITests.swift; sourceTree = "<group>"; };
 		0AB0B5C81CACAEAE004B2455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AB0B5D81CACB50D004B2455 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		0AF209F71CB0881D008A327C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0AF209F91CB08C0A008A327C /* MuiscVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuiscVideo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		0AB0B5A51CACAEAD004B2455 /* MusicVideo */ = {
 			isa = PBXGroup;
 			children = (
+				0AF209F61CB08776008A327C /* Utils */,
 				0AB0B5D71CACAFF7004B2455 /* Supporting Files */,
 				0AB0B5D41CACAF53004B2455 /* Model */,
 				0AB0B5D51CACAF65004B2455 /* Controller */,
@@ -136,6 +141,7 @@
 		0AB0B5D51CACAF65004B2455 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0AF209F91CB08C0A008A327C /* MuiscVideo.swift */,
 				0AB0B5A81CACAEAD004B2455 /* ViewController.swift */,
 			);
 			name = Controller;
@@ -158,6 +164,14 @@
 				0AB0B5B21CACAEAD004B2455 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AF209F61CB08776008A327C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0AF209F71CB0881D008A327C /* Constants.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +309,8 @@
 				0AB0B5D91CACB50D004B2455 /* APIManager.swift in Sources */,
 				0AB0B5A91CACAEAD004B2455 /* ViewController.swift in Sources */,
 				0AB0B5A71CACAEAD004B2455 /* AppDelegate.swift in Sources */,
+				0AF209F81CB0881D008A327C /* Constants.swift in Sources */,
+				0AF209FA1CB08C0A008A327C /* MuiscVideo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +539,7 @@
 				0AB0B5CD1CACAEAE004B2455 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AB0B5CE1CACAEAE004B2455 /* Build configuration list for PBXNativeTarget "MusicVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +548,7 @@
 				0AB0B5D01CACAEAE004B2455 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AB0B5D11CACAEAE004B2455 /* Build configuration list for PBXNativeTarget "MusicVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +557,7 @@
 				0AB0B5D31CACAEAE004B2455 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
