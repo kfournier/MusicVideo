@@ -23,6 +23,8 @@ class Videos {
     private var _vLinkToiTunes:String
     private var _vReleaseDte:String
     
+    //this gets created from UI
+    var vImageData:NSData?  
     
     //Make a getter
     
@@ -106,7 +108,7 @@ class Videos {
         //Video Price
         
         if let price = data["im:price"] as? JSONDictionary,
-            vPrice = price["label"] as?String {
+            vPrice = price["label"] as? String {
             self._vPrice = vPrice
         }
         else
@@ -155,7 +157,7 @@ class Videos {
         if let genre = data["category"] as? JSONDictionary,
             rel2 = genre["attributes"] as? JSONDictionary,
             vGenre = rel2["term"] as? String {
-            self._vImid = vGenre
+            self._vGenre = vGenre
         }
         else
         {
@@ -185,4 +187,4 @@ class Videos {
             _vReleaseDte = ""
         }
     }
-        }
+}
